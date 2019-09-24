@@ -8,10 +8,6 @@
 * [submission PR](https://github.com/jose-401-advanced-javascript/mongoose-orm/pull/1)
 * [travis](https://travis-ci.com/jose-401-advanced-javascript/mongoose-orm)
 
-
-#### Documentation
-* [jsdoc](http://xyz.com) (Server assignments)
-
 ### Setup
 #### `.env` requirements
 * `PORT` - 3000
@@ -32,8 +28,9 @@ available via `npm run-script`:
   jsdoc
     jsdoc -c ./docs/config/jsdoc.config.json
   
-#### Tests
-Any additional testing information
-
 #### UML
-Link to an image of the UML for your application and response to events
+![Model.find](assets/get-all.jpg)
+![Model.findById](assets/get-by-id.jpg)
+![Model.create](assets/post-create.jpg)
+![Model.findByIdAndUpdate](assets/put.jpg)
+![Model.findByIdAndRemove](assets/delete.jpg)
