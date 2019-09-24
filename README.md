@@ -5,7 +5,7 @@
 ### Author: Jose Ojeda
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/jose-401-advanced-javascript/mongoose-orm/pull/1)
 * [travis](http://xyz.com)
 
 
