@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
+    "lint": "eslint **/*.js",
     "test": "jest --verbose",
     "test-watch": "jest --verbose --watchAll",
     "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
