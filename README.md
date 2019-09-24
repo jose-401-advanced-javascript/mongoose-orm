@@ -6,7 +6,7 @@
 
 ### Links and Resources
 * [submission PR](https://github.com/jose-401-advanced-javascript/mongoose-orm/pull/1)
-* [travis](http://xyz.com)
+* [travis](https://travis-ci.com/jose-401-advanced-javascript/mongoose-orm)
 
 
 #### Documentation
