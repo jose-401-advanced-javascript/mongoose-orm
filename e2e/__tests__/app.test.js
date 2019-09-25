@@ -26,4 +26,5 @@ describe('core app api', () => {
         expect(res.body.error).toMatch(/not found/i);
       });
   });
+
 });
