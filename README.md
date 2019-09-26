@@ -1,11 +1,11 @@
-# LAB - 06
+# LAB - 08
 
-## Mongoose ORM
+## Express
 
 ### Author: Jose Ojeda
 
 ### Links and Resources
-* [submission PR](https://github.com/jose-401-advanced-javascript/mongoose-orm/pull/1)
+* [submission PR](https://github.com/jose-401-advanced-javascript/mongoose-orm/pull/2)
 * [travis](https://travis-ci.com/jose-401-advanced-javascript/mongoose-orm)
 
 ### Setup
