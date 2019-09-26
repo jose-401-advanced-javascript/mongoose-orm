@@ -64,5 +64,28 @@ describe('video game api', () => {
         expect(body.length).toBe(3);
       });
   });
+	
+  it('updates a game', () => {
+    return postGame(data)
+      .then(game => {
+        game.yearPublished = 2002;
+        return request
+          .put(`/api/videogames/${game._id}`)
+          .send(game)
+          .expect(200);
+      })
+      .then(({ body }) => {
+        expect(body.yearPublished).toBe(2002);
+      });
+  });
+	
+  it('deletes a game', () => {
+    return postGame(data)
+      .then(game => {
+        return request
+          .delete(`/api/videogames/${game._id}`)
+          .expect(200);
+      });
+  });
 
 });
